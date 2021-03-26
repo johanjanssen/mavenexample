@@ -9,7 +9,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>broken</module>
-        <module>fixed</module>
     </modules>
 
     <properties>
