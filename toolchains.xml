@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF8"?>
+<toolchains>
+  <toolchain>
+    <type>jdk</type>
+    <provides>
+      <version>11</version>
+    </provides>
+    <configuration>
+      <jdkHome>/usr/java/latest/bin</jdkHome>
+    </configuration>
+  </toolchain>
+  <toolchain>
+    <type>jdk</type>
+    <provides>
+      <version>16</version>
+    </provides>
+    <configuration>
+      <jdkHome>/usr/java/latest/bin</jdkHome>
+    </configuration>
+  </toolchain>
+</toolchains>

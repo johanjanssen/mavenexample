@@ -1,0 +1,6 @@
+FROM maven:3.6.3-openjdk-16
+
+ADD . /java16
+WORKDIR java16
+
+RUN mvn compile -Ptoolchain --global-toolchains toolchains.xml
